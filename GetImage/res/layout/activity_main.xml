@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/ic_launcher" />
+
+    <Button
+        android:id="@+id/AmbilGambarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="30dp"
+        android:text="Ambil Gambar" />
+
+    <Button
+        android:id="@+id/TampilkanGambarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/AmbilGambarButton"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="21dp"
+        android:text="Tampilkan Gambar" />
+
+</RelativeLayout>
